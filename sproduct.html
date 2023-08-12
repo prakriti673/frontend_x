@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <section id="header">
+        <img src="logo/photologo.png" class="logo_class" alt="logo displays here">
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contactus">Contact Us</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="pro_details">
+        <div class="singlepro_image">
+            <img src="photos/shoes.jpg" alt="Shoes" id="single_img" >
+            <div id="small_ig_group">
+                <img src="photos/clothes.jpg" alt="shoes1" class="small_img" id="img1">
+                <img src="photos/clothes2.jpg" alt="shoes2" class="small_img" id="img2">
+                <img src="photos/colourful.jpg" alt="shoes3" class="small_img" id="img3">
+                <img src="photos/shirt.jpg" alt="shoes4" class="small_img" id="img4">
+            </div>
+        </div>
+        <div class="pro_desc">
+            <h4>Home/Tshirts</h4>
+            <h2>Men's fashion t-shirt</h2>
+            <h1 id="price">$14.99</h1>
+            <select id="select_size">
+                <option>Select size</option>
+                <option>Extra-Small(S)</option>
+                <option>Small(S)</option>
+                <option>Medium(M)</option>
+                <option>Large(L)</option>
+                <option>Extra-Large(XL)</option>
+                <option>Extra-extra-Large(XXL)</option>
+            </select>
+            <p>
+            <input type="number" value="1" id="qty">
+            <button id="add_to_cart">Add to Cart</button>
+            </p>
+            <h2 id="pro_head">
+                Product details
+            </h2>
+            <p id="desc">
+                Spread Collar
+                Our cotton casual shirt features a timeless design that effortlessly combines elegance and modernity. The classic button-down style with a spread collar adds a touch of sophistication to your look. Whether you wear it with jeans, chinos, or dress pants, it adds a refined and stylish element to any outfit.
+                Wardrobe Essential
+                We prioritize your comfort, and our cotton casual shirt delivers just that. The lightweight cotton fabric ensures a comfortable wearing experience all day long. The shirt's relaxed fit allows for easy movement, making it suitable for various activities, whether it's a long day at the office or a weekend adventure.
+            </p>
+        </div>
+    </section>
+    <div class="products_head">
+        <h>Featured products</h>
+        <h3>Fresh styles, latest trends</h3>
+    </div>
+    <div class="container">
+        <div class="product_container">
+            <div class="product_image">
+                <img src="photos/shoes.jpg"  alt="Shoes" >
+            </div>
+            <div class="info">
+                <p id="brand">adidas</p>
+                <p id="product_desc">Running Shoes for men</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: #ecb210;"></i>
+                    <i class="fa-solid fa-star" style="color: #ecb210;"></i>
+                    <i class="fa-solid fa-star" style="color: #ecb210;"></i>
+                    <i class="fa-solid fa-star" style="color: #ecb210;"></i>
+                    <i class="fa-solid fa-star" style="color: #ecb210;"></i>
+                </div>
+                <div class="cart_price">
+                    <h3 id="price">$50.99</h3>
+                    <p><i class="fa-solid fa-cart-shopping"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="newstext">
+            <h3>Sign  Up  For  Our  NewsLetters</h3>
+            <h4>Be the first to know about our latest updates and special offers</h4>
+        </div>
+        <div class="email_fill">
+            <input type="text" placeholder="Your email address here" id="fill_box">
+            <button id="sign_up">Sign Up</button>
+        </div>
+    </div>
+    <footer>
+        <div class="contact">
+            <h3><span class="make_bold">Contact </span></h3>
+            <h4><span class="make_bold">Address: </span>Kolkata,India</h4>
+            <h4><span class="make_bold">Phone: </span>+033 67809-32421</h4>
+            <h4><span class="make_bold">Hours: </span>10:00 -18:00,all days except sundays</h4>
+            <h4>Follow Us</h4>
+            <section id="social_media_handles">
+                <!-- icons for social media  -->
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </section>
+        </div>
+        <div class="about">
+            <h3><span class="make_bold">About</span></h3>
+            <h4>About Us</h4>
+            <h4>Delivery Information</h4>
+            <h4>Privacy Policy</h4>
+            <h4>Terms and conditions</h4>
+            <h4>Contact Us</h4>
+        </div>
+        <div class="my_account">
+            <h3><span class="make_bold">My Account</span></h3>
+            <h4>Sign in</h4>
+            <h4>View cart</h4>
+            <h4>My Wishlist</h4>
+            <h4>Track My Order</h4>
+            <h4>Help</h4>
+        </div>
+        <div class="install_app">
+            <h3><span class="make_bold">Install App</span></h3>
+            <h4>From App Store or Google Play</h4>
+            <div class="store_btn">
+                <button class="st_btn" id="st_btn1">
+                    <div id="txt">
+                    <h6>Download on the</h6>
+                    <h5>App Store</h5>
+                    </div>
+                    <i class="fa-brands fa-apple fa-2x"></i> 
+                </button>
+                <button class="st_btn" id="st_btn2"> 
+                    <!-- <p> -->
+                    <h5>Google Play</h5>
+                    <!-- </p> -->
+                    <i class="fa-brands fa-google-play fa-2x"></i>
+                </button>
+            </div>
+                <h4>Secured payment gateways</h4>
+                <section class="payment_gateway">
+                    <i class="fa-brands fa-cc-visa fa-2x"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+                    <i class="fa-brands fa-cc-paypal fa-2x"></i>
+                    <i class="fa-brands fa-cc-amex fa-2x"></i>
+                </section>
+        </div>
+    </footer>
+    <section class="copyright_section">
+        <p>©2023,Prakriti Saraf-HTML-CSS-JavaScript- All rights reserved</p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

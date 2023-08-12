@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <section id="header">
+        <img src="logo/photologo.png" class="logo_class" alt="logo displays here">
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="about_header">
+        <h2>#know us</h2>
+        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+    </section>
+    <div class="who_are_we">
+        <div id="img_who">
+            <img src="photos/about_bgimg.png" alt="who are we">
+        </div>
+        <div class="who_desc">
+            <h id="head_who">Who Are We?</h>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta deserunt magnam ad officiis tenetur similique ex asperiores ea adipisci possimus ullam facere mollitia laudantium velit, commodi explicabo atque ab, suscipit, fugiat vero. Cum hic id rerum doloribus impedit, voluptate obcaecati corporis eos dolores, ad consectetur doloremque dignissimos similique. Tenetur libero accusantium fugit adipisci nesciunt deserunt.</p>
+            <abbr title="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero at, dignissimos non temporibus quidem soluta sapiente autem debitis inventore neque</abbr>
+            <marquee bgcolor="grey" height="20px" loop="-1" scrollamount="5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quidem natus deleniti fugit minima maiores tempore voluptates, perspiciatis quos aperiam?
+            </marquee>
+        </div>
+    </div>
+    <div class="video_box">
+        <h1>Download our app</h1>
+        <video class="video_container" autoplay loop >
+            <source src="video/clothing_video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="feature">
+        <div class="shipping feature-btn">
+            <i class="fa-solid fa-truck-fast fa-fade fa-3x" style="color: #ddd955;"></i>
+            <p><button class="btn">Express Delivery</button></p> 
+        </div>
+        <div class="return feature-btn">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-fade fa-3x" style="color: #ddd955;"></i></i>
+            <p><button class="btn">Easy Returns</button></p>
+        </div>
+        <div class="exchange feature-btn">
+            <i class="fa-solid fa-box-open fa-flip fa-3x" style="color: #ddd955;"></i>
+            <p><button class="btn">14-day exchange</button></p>
+        </div> 
+        <div class="customercare feature-btn">
+            <i class="fa-brands fa-teamspeak fa-fade fa-3x" style="color: #ddd955;"></i>
+            <p><button class="btn">24/7 customer support</button></p>
+        </div>
+    </div>
+    <section id="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section>
+    <div class="newsletter">
+        <div class="newstext">
+            <h3>Sign  Up  For  Our  NewsLetters</h3>
+            <h4>Be the first to know about our latest updates and special offers</h4>
+        </div>
+        <div class="email_fill">
+            <input type="text" placeholder="Your email address here" id="fill_box">
+            <button id="sign_up">Sign Up</button>
+        </div>
+    </div>
+    <footer>
+        <div class="contact footelt">
+            <h3><span class="make_bold">Contact </span></h3>
+            <h4><span class="make_bold">Address: </span>Kolkata,India</h4>
+            <h4><span class="make_bold">Phone: </span>+033 67809-32421</h4>
+            <h4><span class="make_bold">Hours: </span>10:00 -18:00,all days except sundays</h4>
+            <h4>Follow Us</h4>
+            <section id="social_media_handles">
+                <!-- icons for social media  -->
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </section>
+        </div>
+        <div class="about footelt">
+            <h3><span class="make_bold">About</span></h3>
+            <h4>About Us</h4>
+            <h4>Delivery Information</h4>
+            <h4>Privacy Policy</h4>
+            <h4>Terms and conditions</h4>
+            <h4>Contact Us</h4>
+        </div>
+        <div class="my_account footelt">
+            <h3><span class="make_bold">My Account</span></h3>
+            <h4>Sign in</h4>
+            <h4>View cart</h4>
+            <h4>My Wishlist</h4>
+            <h4>Track My Order</h4>
+            <h4>Help</h4>
+        </div>
+        <div class="install_app footelt">
+            <h3><span class="make_bold">Install App</span></h3>
+            <h4>From App Store or Google Play</h4>
+            <div class="store_btn">
+                <button class="st_btn" id="st_btn1">
+                    <div id="txt">
+                    <h6>Download on the</h6>
+                    <h5>App Store</h5>
+                    </div>
+                    <i class="fa-brands fa-apple fa-2x"></i> 
+                </button>
+                <button class="st_btn" id="st_btn2"> 
+                    <!-- <p> -->
+                    <h5>Google Play</h5>
+                    <!-- </p> -->
+                    <i class="fa-brands fa-google-play fa-2x"></i>
+                </button>
+            </div>
+                <h4>Secured payment gateways</h4>
+                <section class="payment_gateway">
+                    <i class="fa-brands fa-cc-visa fa-2x"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+                    <i class="fa-brands fa-cc-paypal fa-2x"></i>
+                    <i class="fa-brands fa-cc-amex fa-2x"></i>
+                </section>
+        </div>
+    </footer>
+    <section class="copyright_section">
+        <p>©2023,Prakriti Saraf-HTML-CSS-JavaScript- All rights reserved</p>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
